@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+"""This module defines a square"""
 class Square:
-    def __init__(self)
+    """Represents a square"""
 
 my_square = Square()
 print(type(my_square))
