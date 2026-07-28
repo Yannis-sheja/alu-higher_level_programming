@@ -2,7 +2,8 @@
 """This module defines a square with size as a private instance atrribute"""
 
 class Square: 
-    """Represents a square"""
+    """Initialize a square"""
 
     def __init__(self, size):
-        self.size = size 
+
+        self.__size = size 
