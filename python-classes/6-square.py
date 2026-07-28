@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""This module helps to access and update private attribute"""
+"""This module helps coordinate the square"""
 
 
 class Square:
-    """Represents a square"""
+    """Represents the square"""
 
     def __init__(self, size=0, position(0, 0)):
         """Initialize a new square"""
