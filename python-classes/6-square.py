@@ -1,5 +1,11 @@
 #!/usr/bin/python3
-"""This module helps coordinate the square"""
+"""Defines a Square class.
+
+This module provides the Square class, which models a square shape
+with a given size and a position expressed as (x, y) coordinates.
+It supports computing the area of the square and printing it to
+stdout using the '#' character, offset by its position.
+"""
 
 
 class Square:
@@ -40,7 +46,7 @@ class Square:
                 not all(n >= 0 for n in value)):
             raise TypeError("position must be a tuple of 2 positive integer")
 
-    self.__position = value
+        self.__position = value
 
     def area(self):
 
