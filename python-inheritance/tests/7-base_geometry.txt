@@ -69,4 +69,4 @@ Zero or negative integers raise a ValueError:
 
     >>> bg.integer_validator("age", 0)
     Traceback (most recent call last):
-    ValueError: age must be greater than 0i
+    ValueError: age must be greater than 0
