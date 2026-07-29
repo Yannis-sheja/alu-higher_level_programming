@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""This module defines a function that returns true if obj is instance or inherited from"""
+"""This module defines a function that returns true
+if obj is instance or inherited from"""
 
 
 def is_kind_of_class(obj, a_class):
