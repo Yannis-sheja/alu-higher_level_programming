@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     cursor = db.cursor()
     cursor.execute("SELECT * FROM states WHERE name = %s;", (sys.argv[4],))
-    states = cur.fetchall()
+    states = cursor.fetchall()
 
     for state in states:
         print(state)

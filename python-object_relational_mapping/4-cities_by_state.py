@@ -23,7 +23,7 @@ if __name__ == "__main__":
                  FROM cities c INNER JOIN states s \
                  ON c.state_id = s.id \
                  ORDER BY c.id")
-    rows = cur.fetchall()
+    rows = cursor.fetchall()
 
     for row in rows:
         print(row)
