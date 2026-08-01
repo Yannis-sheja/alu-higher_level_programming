@@ -21,11 +21,11 @@ if __name__ == "__main__":
 
     # By default, it will connect to localhost:3306
     db = MySQLdb.connect(user=mySQL_u, passwd=mySQL_p, db=db_name)
-    cur = db.cursor()
+    cursor = db.cursor()
 
-    cur.execute("SELECT * FROM states WHERE name LIKE BINARY '{}' ORDER BY id"
+    cursor.execute("SELECT * FROM states WHERE name LIKE BINARY '{}' ORDER BY id"
                 .format(searched_name))
-    rows = cur.fetchall()
+    rows = cursor.fetchall()
 
     for row in rows:
         print(row)
