@@ -7,4 +7,4 @@ request.get(process.argv[2], (err, response) => {
   } else {
     console.log('code: ' + response.statusCode);
   }
-});
+};
